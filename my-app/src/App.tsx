@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import GLOBALSTYLE from './global/GlobalStyle';
+import { Watch } from './components/Watch';
 
 function App() {
   return (
     <>
       <GLOBALSTYLE />
-        <h1>
-          Watch
-        </h1>
+      {/* <GLOBALSTYLE_BACKGROUND/> */}
+      <Watch />
     </>
     );
 }
