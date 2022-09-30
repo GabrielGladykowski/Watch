@@ -6,7 +6,6 @@ function App() {
   return (
     <>
       <GLOBALSTYLE />
-      {/* <GLOBALSTYLE_BACKGROUND/> */}
       <Watch />
     </>
     );

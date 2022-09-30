@@ -1,9 +1,9 @@
 import React from "react";
-import { Circuit } from "./circuit/Circuit";
+import { Bezel } from "./bezel/Bezel";
 import { WatchStyled } from "./Watch.styled";
 
 export const Watch = () => (
     <WatchStyled>
-        <Circuit />
+        <Bezel />
     </WatchStyled>
 )

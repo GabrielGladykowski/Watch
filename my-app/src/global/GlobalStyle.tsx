@@ -23,8 +23,3 @@ const GLOBALSTYLE = createGlobalStyle`
 `;
 
 export default GLOBALSTYLE;
-
-// export const GLOBALSTYLE_BACKGROUND = createGlobalStyle`
-//     background: ${COLORS.BACKGROUND_ONE_COLOR};
-//     background: linear-gradient(200deg, ${COLORS.BACKGROUND_TWO_COLOR} 0%, ${COLORS.BACKGROUND_TWO_COLOR} 100%);
-// `

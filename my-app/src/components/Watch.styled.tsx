@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { COLORS } from "../const/COLORS";
 
 export const WatchStyled = styled.section`
     display: flex;
@@ -7,7 +8,7 @@ export const WatchStyled = styled.section`
     justify-content: center;
     align-items: center;
     position: relative;
-    background: rgb(251,233,185);
-    background: linear-gradient(190deg, rgba(251,233,185,1) 0%, rgba(73,70,58,1) 100%);
+    background: ${COLORS.BACKGROUND_LIGHT_COLOR};
+    background: linear-gradient(190deg, ${COLORS.BACKGROUND_LIGHT_COLOR} 0%, ${COLORS.BACKGROUND_DARK_COLOR} 100%);
     z-index: -200;
 `
