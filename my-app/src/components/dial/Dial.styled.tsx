@@ -10,6 +10,3 @@ export const DialPoint = styled.div`
     height: 1vh;
     background-color: ${COLORS.BLACK_COLOR};
 `
-
-export const DialStyled = styled.div`
-`
