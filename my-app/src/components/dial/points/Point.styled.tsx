@@ -24,4 +24,6 @@ export const PointStyled = styled.div<Omit<typeOfPoints, 'transform'>>`
     width: ${(props) => props.width};
     height: ${(props) => props.height};
     background-color: ${(props) => props.backgroundColor};
+    margin-top: 1.5px;
+    border-radius: 5px;
 `;
