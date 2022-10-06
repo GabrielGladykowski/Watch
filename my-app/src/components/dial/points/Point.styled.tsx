@@ -17,7 +17,7 @@ export const PointWrapperStyled = styled.div<x>`
     width: fit-content;
     height: 80px;
     top: 0;
-    transform-origin: left bottom;
+    transform-origin: center bottom;
 `;
 
 export const PointStyled = styled.div<Omit<typeOfPoints, 'transform'>>`
