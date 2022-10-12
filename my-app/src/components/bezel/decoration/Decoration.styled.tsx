@@ -31,10 +31,10 @@ export const DecorationStyled = styled.div<Omit<typeOfDecoration, 'transform'>>`
     &::before{
         position: absolute;
         content: "";
-        border-bottom: .8px solid transparent;
+        border-bottom: 1.8px solid transparent;
         border-top: .8px solid transparent;
         border-right: 4px solid ${COLORS.DECORATION_BEZEL_LIGHT_COLOR};
-        height: 10px;
+        height: 11px;
         right: 4px;
     }
 `
