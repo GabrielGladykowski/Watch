@@ -3,11 +3,11 @@ import styled from "styled-components";
 import { COLORS } from "../../../const/COLORS";
 import { typeOfDecoration } from "./Decoration.data";
 
-type y = {
+type rotation = {
     transform: typeOfDecoration[`transform`]
 }
 
-export const DecorationWrapperStyled = styled.div<y>`
+export const DecorationWrapperStyled = styled.div<rotation>`
     display: flex;
     justify-content: center;
     align-items: flex-start;
