@@ -28,7 +28,7 @@ export const DecorationStyled = styled.div<Omit<typeOfDecoration, 'transform'>>`
     border-top: ${(props) => props.borderTop};
     border-left: ${(props) => props.borderLeft};
     height: ${(props) => props.height};
-    &::before{
+    &::before {
         position: absolute;
         content: "";
         border-bottom: 1.8px solid transparent;
