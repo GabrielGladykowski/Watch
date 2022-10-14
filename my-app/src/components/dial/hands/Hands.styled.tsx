@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { COLORS } from "../../../const/COLORS";
 
-export const HandsWrapper = styled.div`
+export const HandsWrapperSecond = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@ export const CircleCenterHandsSecondStyled = styled.div`
 
 // -------------------------------------------------------------------------------------
 
-export const HandsWrapperMinute = styled(HandsWrapper)`
+export const HandsWrapperMinute = styled(HandsWrapperSecond)`
     z-index: 2;
     transform: rotate(-115deg);
 `;
@@ -99,7 +99,7 @@ export const CircleCenterHandsMinuteStyled = styled(CircleCenterHandsSecondStyle
 
 // ------------------------------------------------------------------------------------------
 
-export const HandsWrapperHour = styled(HandsWrapper)`
+export const HandsWrapperHour = styled(HandsWrapperSecond)`
     z-index: 1;
     transform: rotate(125deg);
 `;

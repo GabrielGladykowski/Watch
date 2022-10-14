@@ -1,8 +1,8 @@
 import React from "react";
-import { CircleCenterHandsHourStyled, CircleCenterHandsMinuteStyled, CircleCenterHandsSecondStyled, HandsAllHourStyled, HandsAllMinuteStyled, HandsAllSecondStyled, HandsCenterHourStyled, HandsCenterMinuteStyled, HandsHalfLeftHourStyled, HandsHalfLeftMinuteStyled, HandsHalfLeftSecondStyled, HandsHalfRightHourStyled, HandsHalfRightMinuteStyled, HandsHalfRightSecondStyled, HandsWrapper, HandsWrapperHour, HandsWrapperMinute } from "./Hands.styled";
+import { CircleCenterHandsHourStyled, CircleCenterHandsMinuteStyled, CircleCenterHandsSecondStyled, HandsAllHourStyled, HandsAllMinuteStyled, HandsAllSecondStyled, HandsCenterHourStyled, HandsCenterMinuteStyled, HandsHalfLeftHourStyled, HandsHalfLeftMinuteStyled, HandsHalfLeftSecondStyled, HandsHalfRightHourStyled, HandsHalfRightMinuteStyled, HandsHalfRightSecondStyled, HandsWrapperHour, HandsWrapperMinute, HandsWrapperSecond } from "./Hands.styled";
 
 export const HandsSecond = () => (
-    <HandsWrapper>
+    <HandsWrapperSecond>
         <HandsAllSecondStyled>
             <HandsHalfLeftSecondStyled />
 
@@ -10,7 +10,7 @@ export const HandsSecond = () => (
         </HandsAllSecondStyled>
 
         <CircleCenterHandsSecondStyled />
-    </HandsWrapper>
+    </HandsWrapperSecond>
 )
 
 export const HandsMinute = () => (
