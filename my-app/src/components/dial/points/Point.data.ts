@@ -16,7 +16,7 @@ export const POINTS = (index: number) => ({
     HOURS: {
         width: '7px',
         height: '22px',
-        backgroundColor: `${COLORS.HOURS_INSIDE_COLOR}`,
+        backgroundColor: `${COLORS.HOURS_AND_DATE_INSIDE_COLOR}`,
         transform: `rotate(${index * 30}deg)`,
         marginTop: '8px',
         borderRadius: '0',

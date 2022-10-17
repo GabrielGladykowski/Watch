@@ -83,7 +83,7 @@ export const HandsCenterMinuteStyled = styled.div`
     position: absolute;
     height: 40px;
     width: 3px;
-    background-color: ${COLORS.HOURS_INSIDE_COLOR};
+    background-color: ${COLORS.HOURS_AND_DATE_INSIDE_COLOR};
     box-shadow: inset .2px .2px 1.2px;
     top: 25px;
 `;
@@ -131,7 +131,7 @@ export const HandsCenterHourStyled = styled.div`
     position: absolute;
     height: 20px;
     width: 3px;
-    background-color: ${COLORS.HOURS_INSIDE_COLOR};
+    background-color: ${COLORS.HOURS_AND_DATE_INSIDE_COLOR};
     box-shadow: inset .2px .2px 1.2px;
     top: 19px;
 `;
