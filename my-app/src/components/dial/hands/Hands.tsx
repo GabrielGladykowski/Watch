@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { CircleCenterHandsHourStyled, CircleCenterHandsMinuteStyled, CircleCenterHandsSecondStyled, HandsAllHourStyled, HandsAllMinuteStyled, HandsAllSecondStyled, HandsCenterHourStyled, HandsCenterMinuteStyled, HandsHalfLeftHourStyled, HandsHalfLeftMinuteStyled, HandsHalfLeftSecondStyled, HandsHalfRightHourStyled, HandsHalfRightMinuteStyled, HandsHalfRightSecondStyled, HandsWrapperHour, HandsWrapperMinute, HandsWrapperSecond } from "./Hands.styled";
+import { HandsContext } from "./HandsContext";
 
-export const HandsSecond = () => (
-    <HandsWrapperSecond>
+const HandsSecond = () => {
+    const date = useContext(HandsContext)
+    
+    const seconds = (date: Date) => {
+        const rotation = Math.floor((date.getSeconds() / 60) * 360)
+        return (
+            rotation
+        )
+    };
+
+    return (
+    <HandsWrapperSecond rotation={seconds(date)}>
         <HandsAllSecondStyled>
             <HandsHalfLeftSecondStyled />
 
@@ -11,33 +22,56 @@ export const HandsSecond = () => (
 
         <CircleCenterHandsSecondStyled />
     </HandsWrapperSecond>
-)
+    
+)}
 
-export const HandsMinute = () => (
-    <HandsWrapperMinute>
-        <HandsAllMinuteStyled>
-            <HandsHalfLeftMinuteStyled />
+export const HandsMinute = () => {
+    const date = useContext(HandsContext)
 
-            <HandsHalfRightMinuteStyled />
-        </HandsAllMinuteStyled>
-        <HandsCenterMinuteStyled />
+    const minute = (date: Date) => {
+        const rotation = Math.floor(((date.getMinutes() * 60 + date.getSeconds()) / 3600) * 360);
+        return (
+            rotation
+        )
+    };
 
-        <CircleCenterHandsMinuteStyled />
-    </HandsWrapperMinute>
-) 
+    return (
+        <HandsWrapperMinute rotation={minute(date)}>
+            <HandsAllMinuteStyled>
+                <HandsHalfLeftMinuteStyled />
+    
+                <HandsHalfRightMinuteStyled />
+            </HandsAllMinuteStyled>
+            <HandsCenterMinuteStyled />
+    
+            <CircleCenterHandsMinuteStyled />
+        </HandsWrapperMinute>
+    ) 
+}
 
-export const HandsHour = () => (
-    <HandsWrapperHour>
-        <HandsAllHourStyled>
-            <HandsHalfLeftHourStyled />
+export const HandsHour = () => {
+    const date = useContext(HandsContext)
 
-            <HandsHalfRightHourStyled />
-        </HandsAllHourStyled>
-        <HandsCenterHourStyled />
+    const hour = (date: Date) => {
+        const rotation = Math.floor(((date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds()) / 86400) * 720)
+        return (
+            rotation
+        )
+    };
 
-        <CircleCenterHandsHourStyled />
-    </HandsWrapperHour>
-) 
+    return (
+        <HandsWrapperHour rotation={hour(date)}>
+            <HandsAllHourStyled>
+                <HandsHalfLeftHourStyled />
+    
+                <HandsHalfRightHourStyled />
+            </HandsAllHourStyled>
+            <HandsCenterHourStyled />
+    
+            <CircleCenterHandsHourStyled />
+        </HandsWrapperHour>
+    ) 
+}
 
 export const Hands = () => (
     <>
@@ -46,3 +80,7 @@ export const Hands = () => (
         <HandsHour />
     </>
 )
+
+// export type TypeOfHandsSecond = typeof HandsSecond;
+// export type TypeOfHandsMinute = typeof HandsMinute;
+// export type TypeOfHandsHour = typeof HandsHour;

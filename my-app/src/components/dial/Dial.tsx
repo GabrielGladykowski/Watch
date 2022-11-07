@@ -6,16 +6,13 @@ import { Points } from "./points/Points";
 import { v4 as uuid } from 'uuid';
 import { Numbers } from "./numbers/Numbers";
 import { ARRAY_FROM_NUMBERS } from "./numbers/Numbers.data";
-import { Hands, HandsSecond } from "./hands/Hands";
+import { Hands } from "./hands/Hands";
 import logo from "./logo_rolex.svg";
 import { DateWindow } from "./date_window/Date_window";
 
 const INDEX_NUMBER: number[] = [60, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
 
-export const Dial = () => {
-        console.log(logo)
-
-        return (
+export const Dial = () => (
                 <DialStyled>
                         {ARRAY_FROM_POINTS_SMALL.map((props, index) => (
                                 <Points key={uuid()} type='Small' {...props}/>
@@ -39,5 +36,4 @@ export const Dial = () => {
                         <DialHeaderTextStyled>oyster perpetual detejust</DialHeaderTextStyled>
                         <DialTextStyled>superlative chronometer officialy certified</DialTextStyled>
                 </DialStyled>
-        )
-};
+)

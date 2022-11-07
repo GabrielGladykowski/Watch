@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { HandsContext } from "../hands/HandsContext";
 import { DateWindowFrameRightLeftStyled, DateWindowFrameTopBottomStyled, DateWindowWrapper } from "./Date_window.styled";
 
-const MonthDay = new Date();
-
-export const DateWindow = () => (
+export const DateWindow = () => {
+    const date = useContext(HandsContext)
+    return (
     <DateWindowWrapper>
         <DateWindowFrameTopBottomStyled />
         <DateWindowFrameRightLeftStyled />
-        {MonthDay.getDate()}
+        {date.getDate()}
     </DateWindowWrapper>
-)
+)}

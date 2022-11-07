@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { COLORS } from "../../../const/COLORS";
 
-export const HandsWrapperSecond = styled.div`
+export const HandsWrapperSecond = styled.div<{ rotation: number}>`
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 3;
+    transform: rotate(${(props) => props.rotation + 180}deg);
 `;
 
 export const HandsAllSecondStyled = styled.div`
@@ -51,9 +52,9 @@ export const CircleCenterHandsSecondStyled = styled.div`
 
 // -------------------------------------------------------------------------------------
 
-export const HandsWrapperMinute = styled(HandsWrapperSecond)`
+export const HandsWrapperMinute = styled(HandsWrapperSecond)<{ rotation: number}>`
     z-index: 2;
-    transform: rotate(-115deg);
+    transform: rotate(${(props) => props.rotation + 180}deg);
 `;
 
 export const HandsAllMinuteStyled = styled(HandsAllSecondStyled)`
@@ -99,9 +100,9 @@ export const CircleCenterHandsMinuteStyled = styled(CircleCenterHandsSecondStyle
 
 // ------------------------------------------------------------------------------------------
 
-export const HandsWrapperHour = styled(HandsWrapperSecond)`
+export const HandsWrapperHour = styled(HandsWrapperSecond)<{ rotation: number}>`
     z-index: 1;
-    transform: rotate(125deg);
+    transform: rotate(${(props) => props.rotation + 180}deg);
 `;
 
 export const HandsAllHourStyled = styled(HandsAllMinuteStyled)`
