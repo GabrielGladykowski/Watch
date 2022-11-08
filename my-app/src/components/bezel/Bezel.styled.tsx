@@ -18,7 +18,6 @@ export const BezelStyled = styled.div`
             ${COLORS.BEZEL_DARK_BACKGROUND_COLOR},
             ${COLORS.BEZEL_LIGHT_BACKGROUND_COLOR}
         );
-        top: -2%;
         border-radius: 50%;
 `
 
