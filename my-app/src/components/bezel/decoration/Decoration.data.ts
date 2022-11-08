@@ -8,7 +8,7 @@ export const DECORATION = (index: number) => ({
         borderBottom: '1.8px solid transparent',
         borderTop: '.8px solid transparent',
         borderLeft: `4px solid ${COLORS.DECORATION_BEZEL_DARK_COLOR}`,
-        height: '11px',
+        height: '12px',
         position: 'absolute',
         transform: `rotate(${index * 5.54}deg)`,
     }

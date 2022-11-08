@@ -14,8 +14,8 @@ export const DecorationWrapperStyled = styled.div<rotation>`
     transform: ${(props) => props.transform};
     position: absolute;
     width: fit-content;
-    height: 92.8px;
-    top: .5px;
+    height: 97.5px;
+    top: .9px;
     transform-origin: left bottom;
 `
 
@@ -34,7 +34,8 @@ export const DecorationStyled = styled.div<Omit<typeOfDecoration, 'transform'>>`
         border-bottom: 1.8px solid transparent;
         border-top: .8px solid transparent;
         border-right: 4px solid ${COLORS.DECORATION_BEZEL_LIGHT_COLOR};
-        height: 11px;
+        height: 12px;
         right: 4px;
+        top: -.8px;
     }
 `
