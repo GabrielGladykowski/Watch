@@ -14,7 +14,7 @@ export const DecorationWrapperStyled = styled.div<rotation>`
     transform: ${(props) => props.transform};
     position: absolute;
     width: fit-content;
-    height: 97.5px;
+    height: 97.2px;
     top: .9px;
     transform-origin: left bottom;
 `
