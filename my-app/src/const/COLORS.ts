@@ -28,7 +28,7 @@ export const COLORS = {
     STRAP_LITTLE_DARK_COLOR: "#808080",
     STRAP_NORMAL_COLOR: "#9d9d9d",
     STRAP_LIGHT_GOLD: "#fff2ce",
-    STRAP_DARK_GOLD: "#8f8b60",
+    STRAP_DARK_GOLD: "#635f35",
     STRAP_LITTLE_DARK_GOLD: "#b9a46b",
     STRAP_NORMAL_GOLD: "#ffe6a3",
 }
