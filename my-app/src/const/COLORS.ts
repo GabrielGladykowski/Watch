@@ -31,4 +31,13 @@ export const COLORS = {
     STRAP_DARK_GOLD: "#635f35",
     STRAP_LITTLE_DARK_GOLD: "#b9a46b",
     STRAP_NORMAL_GOLD: "#ffe6a3",
+    CASE: `background: linear-gradient(
+        0deg, 
+        #dfdfdf 0%, 
+        "#9f9f9f" 8%, 
+        "#dfdfdf" 35%, 
+        "#dfdfdf" 70%, 
+        "#9f9f9f" 90%, 
+        "#dfdfdf" 100%
+    );`
 }
