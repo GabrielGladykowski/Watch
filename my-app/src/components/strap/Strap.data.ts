@@ -35,8 +35,8 @@ const BADGE = (index: number) => ({
     },
 })
 
-export const ARRAY_FROM_STRAP_SILVER = Array.from({ length: 19 }, (element, index) => BADGE(index).SILVER)
-export const ARRAY_FROM_STRAP_GOLD = Array.from({ length: 22 }, (element, index) => BADGE(index).GOLD)
+export const ARRAY_FROM_STRAP_SILVER = Array.from({ length: 20 }, (element, index) => BADGE(index).SILVER)
+export const ARRAY_FROM_STRAP_GOLD = Array.from({ length: 24 }, (element, index) => BADGE(index).GOLD)
 
 export type typeOfStrapSilver = typeof ARRAY_FROM_STRAP_SILVER[number];
 export type typeOfStrapGold = typeof ARRAY_FROM_STRAP_GOLD[number];
