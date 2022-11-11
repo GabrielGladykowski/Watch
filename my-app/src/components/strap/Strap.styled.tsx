@@ -8,18 +8,19 @@ export const StrapWrapperStyled = styled.div`
     position: absolute;
     justify-content: center;
     align-items: center;
-    height: 380px;
+    height: 420px;
     width: 119px;
+    overflow: hidden;
+    border-radius: 21%;
 `
 
 export const StrapWrapperSilverPart = styled.div`
     display: flex;
     position: absolute;
-    height: 380px;
+    height: 390px;
     width: 40px;
     left: 0;
-    top: 20px;
-    border-radius: 40% 0 0 50%;
+    top: 30px;
     transform-origin: center;
     flex-direction: column;
     &::before {
@@ -29,16 +30,15 @@ export const StrapWrapperSilverPart = styled.div`
         width: 40px;
         background-color: silver;
         right: -79px;
-        border-radius: 0 40% 50% 0;
     }
 `
 
 export const StrapWrapperGoldenPart = styled.div`
     display: flex;
     position: absolute;
-    height: 380px;
+    height: 390px;
     width: 16px;
-    top: 20px;
+    top: 30px;
     transform-origin: center;
     flex-direction: column;
     &::before {
