@@ -28,6 +28,6 @@ npm run start
 
 ## Preview
 
-[react-watch-datejust.netlify.app](react-watch-datejust.netlify.app)
+[react-watch-datejust.netlify.app](https://react-watch-datejust.netlify.app)
 
 The watch was not created for commercial purposes
