@@ -14,7 +14,7 @@ export const CaseStyledTopLeft = styled.div`
     display: flex;
     position: absolute;
     height: 115px;
-    border-right: 15px solid lightgray;
+    border-right: 15px solid ${COLORS.CASE_COLOR};
     border-top: 5px solid transparent;
     left: 28.5px;
     top: 0;
@@ -24,7 +24,7 @@ export const CaseStyledTopLeft = styled.div`
         height: 115px;
         right: -.5px;
         top: -.5px;
-        border-right: 28px solid lightgray;
+        border-right: 28px solid ${COLORS.CASE_COLOR};
         border-top: 90px solid transparent;
     }
 `;

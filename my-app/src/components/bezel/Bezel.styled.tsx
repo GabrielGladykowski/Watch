@@ -8,11 +8,6 @@ export const BezelStyled = styled.div`
         align-items: center;
         width: 196.5px;
         height: 196.5px;
-        /* background-image: -webkit-linear-gradient(
-            to top right,
-            ${COLORS.BEZEL_LIGHT_BACKGROUND_COLOR},
-            ${COLORS.BEZEL_DARK_BACKGROUND_COLOR}
-        ); */
         background-image: linear-gradient(
             to top right,
             ${COLORS.BEZEL_DARK_BACKGROUND_COLOR},
