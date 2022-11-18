@@ -6,7 +6,7 @@ import { v4 as uuid } from 'uuid';
 import { Numbers } from "./numbers/Numbers";
 import { ARRAY_FROM_NUMBERS } from "./numbers/Numbers.data";
 import { Hands } from "./hands/Hands";
-import logo from "./logo_rolex_v2.svg";
+import logo from "./logo_roleks_v2.svg";
 import { DateWindow } from "./date_window/Date_window";
 
 const INDEX_NUMBER: number[] = [60, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
