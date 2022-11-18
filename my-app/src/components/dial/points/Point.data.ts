@@ -1,5 +1,3 @@
-import { property } from "lodash";
-import { type } from "os";
 import { COLORS } from "../../../const/COLORS";
 
 export const POINTS = (index: number) => ({

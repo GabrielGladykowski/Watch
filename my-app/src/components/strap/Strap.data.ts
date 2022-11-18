@@ -1,6 +1,4 @@
-import { type } from "os";
 import { COLORS } from "../../const/COLORS";
-
 
 const BADGE = (index: number) => ({
     SILVER: {
