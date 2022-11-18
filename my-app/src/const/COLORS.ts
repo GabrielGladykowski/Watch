@@ -30,4 +30,4 @@ export const COLORS = {
     STRAP_DARK_GOLD: "#635f35",
     STRAP_LITTLE_DARK_GOLD: "#b9a46b",
     STRAP_NORMAL_GOLD: "#ffe6a3",
-}
+};

@@ -1,4 +1,3 @@
-import { type } from "os";
 import styled from "styled-components";
 import { COLORS } from "../../const/COLORS";
 import { typeOfStrapGold, typeOfStrapSilver } from "./Strap.data";
@@ -12,7 +11,7 @@ export const StrapWrapperStyled = styled.div`
     width: 119px;
     overflow: hidden;
     border-radius: 21%;
-`
+`;
 
 export const StrapWrapperSilverPart = styled.div`
     display: flex;
@@ -28,10 +27,9 @@ export const StrapWrapperSilverPart = styled.div`
         position: absolute;
         height: 380px;
         width: 40px;
-        background-color: silver;
         right: -79px;
-    }
-`
+    };
+`;
 
 export const StrapWrapperGoldenPart = styled.div`
     display: flex;
@@ -47,15 +45,15 @@ export const StrapWrapperGoldenPart = styled.div`
         height: 380px;
         width: 16px;
         right: 16px;
-    }
+    };
     &::after {
         content: "";
         position: absolute;
         height: 380px;
         width: 16px;
         left: 16px;
-    }
-`
+    };
+`;
 
 export const StrapSilverPart = styled.div<typeOfStrapSilver>`
     display: ${(props) => props.display};
@@ -73,8 +71,8 @@ export const StrapSilverPart = styled.div<typeOfStrapSilver>`
         border-top: ${(props) => props.borderTop};
         border-bottom: ${(props) => props.borderBottom};
         right: -79px;
-    }
-`
+    };
+`;
 
 export const StrapGoldPart = styled.div<typeOfStrapGold>`
     display: ${(props) => props.display};
@@ -89,7 +87,7 @@ export const StrapGoldPart = styled.div<typeOfStrapGold>`
         background: ${(props) => props.background};
         right: 16px;
         transform: rotate(180deg);
-    }
+    };
     &::after {
         content: "";
         position: absolute;
@@ -98,5 +96,5 @@ export const StrapGoldPart = styled.div<typeOfStrapGold>`
         background: ${(props) => props.background};
         left: 16px;
         transform: rotate(180deg);
-    }
-`
+    };
+`;

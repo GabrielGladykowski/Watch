@@ -1,7 +1,7 @@
 import React from 'react';
 import GLOBALSTYLE from './global/GlobalStyle';
 import { Watch } from './components/Watch';
-import { HandsContext, HandsProvider } from './components/dial/hands/HandsContext';
+import { HandsProvider } from './components/dial/hands/HandsContext';
 
 function App() {
   return (
@@ -10,6 +10,6 @@ function App() {
       <Watch />
     </HandsProvider>
     );
-}
+};
 
 export default App;

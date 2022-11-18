@@ -13,4 +13,4 @@ export const Bezel = () => (
             <Decoration key={uuid()} {...props}/>
         ))}
     </BezelStyled>
-)
+);

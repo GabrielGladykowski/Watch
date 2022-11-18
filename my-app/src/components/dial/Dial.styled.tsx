@@ -13,7 +13,7 @@ export const DialStyled = styled.div`
     background: linear-gradient(180deg, ${COLORS.DIAL_DARK_COLOR} 0%, ${COLORS.DIAL_LIGHT_COLOR} 50%, ${COLORS.DIAL_DARK_COLOR} 100%);
     border-radius: 50%;
     box-shadow: inset 0 0 2px;
-`
+`;
 
 export const DialHeaderStyled = styled.div`
     position: absolute;

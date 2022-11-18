@@ -22,7 +22,7 @@ export const POINTS = (index: number) => ({
         borderRadius: '0',
         border: `1px solid ${COLORS.HOURS_COLOR}`,
         boxShadow: `.5px .5px 1px ${COLORS.SHADOW_COLOR}`,
-    }
+    },
 });
 
 const INDEX_HOURS: number[] = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11];

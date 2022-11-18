@@ -5,11 +5,11 @@ import { v4 as uuid} from 'uuid';
 
 export const StrapSilver = ({...props}: typeOfStrapSilver) => (
     <StrapSilverPart {...props}/>
-)
+);
 
 export const StrapGold = ({...props}: typeOfStrapGold) => (
     <StrapGoldPart {...props}/>
-)
+);
 
 export const Strap = () => (
     <StrapWrapperStyled>
@@ -24,4 +24,4 @@ export const Strap = () => (
             ))}
         </StrapWrapperGoldenPart>
     </StrapWrapperStyled>
-)
+);

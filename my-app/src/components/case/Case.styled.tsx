@@ -44,10 +44,10 @@ export const CaseStyledBottomRight = styled(CaseStyledTopLeft)`
     left: 156.5px;
     rotate: 180deg;
     top: 115px;
-`
+`;
 
 export const CaseStyledTopRight = styled(CaseStyledBottomLeft)`
     left: 156.5px;
     rotate: 180deg;
     top: 0;
-`
+`;

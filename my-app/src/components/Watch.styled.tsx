@@ -11,4 +11,4 @@ export const WatchStyled = styled.section`
     background: ${COLORS.BACKGROUND_LIGHT_COLOR};
     background: linear-gradient(190deg, ${COLORS.BACKGROUND_LIGHT_COLOR} 0%, ${COLORS.BACKGROUND_DARK_COLOR} 100%);
     transform: scale(1.4);
-`
+`;

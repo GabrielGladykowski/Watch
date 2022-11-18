@@ -1,7 +1,7 @@
 import { initial } from "lodash";
 import { createContext, ReactNode, useEffect, useState } from "react";
 
-const initialStore = new Date()
+const initialStore = new Date();
 export const HandsContext = createContext<typeof initialStore>(initialStore);
 
 export const HandsProvider = ({ children }: {children: ReactNode}) => {
@@ -21,5 +21,5 @@ export const HandsProvider = ({ children }: {children: ReactNode}) => {
         <HandsContext.Provider value={date}>
             {children}
         </HandsContext.Provider>
-    );
-}
+    )
+};

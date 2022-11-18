@@ -1,3 +1,4 @@
+import { type } from "os";
 
 export const NUMBERS = (index: number) => ({
     NUMBER: {

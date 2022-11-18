@@ -1,4 +1,3 @@
-import { TypeOfNumber } from "../numbers/Numbers.data";
 import { TypeOfPointsHours, TypeOfPointsSmall } from "./Point.data";
 
 export type PointsType = 

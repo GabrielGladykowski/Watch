@@ -5,7 +5,7 @@ import { COLORS } from "../../../const/COLORS"
 import { PointsType } from "./Points.types";
 
 type rotation = {
-    transform: PointsType['transform']
+    transform: PointsType['transform'],
 };
 
 export const PointWrapperStyled = styled.div<rotation>`
