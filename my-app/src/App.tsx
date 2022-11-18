@@ -9,7 +9,6 @@ function App() {
       <GLOBALSTYLE />
       <Watch />
     </HandsProvider>
-    );
-};
+)};
 
 export default App;
