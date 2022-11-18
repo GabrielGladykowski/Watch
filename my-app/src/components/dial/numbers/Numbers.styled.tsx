@@ -11,8 +11,4 @@ export const NumbersStyled = styled.div<Omit<TypeOfNumber, 'transform'>>`
     font-size: 7px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-`
-// 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-// -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-// Verdana, Geneva, Tahoma, sans-serif
-// 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+`;
