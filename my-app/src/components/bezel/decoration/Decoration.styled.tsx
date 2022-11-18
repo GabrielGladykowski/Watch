@@ -1,4 +1,3 @@
-import { type } from "os";
 import styled from "styled-components";
 import { COLORS } from "../../../const/COLORS";
 import { typeOfDecoration } from "./Decoration.data";

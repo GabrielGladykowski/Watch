@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { COLORS } from "../../const/COLORS";
 import { typeOfStrapGold, typeOfStrapSilver } from "./Strap.data";
 
 export const StrapWrapperStyled = styled.div`

@@ -1,7 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
-import { Transform } from "stream";
 import styled from "styled-components"
-import { COLORS } from "../../../const/COLORS"
 import { PointsType } from "./Points.types";
 
 type rotation = {

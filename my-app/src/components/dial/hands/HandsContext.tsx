@@ -1,4 +1,3 @@
-import { initial } from "lodash";
 import { createContext, ReactNode, useEffect, useState } from "react";
 
 const initialStore = new Date();
