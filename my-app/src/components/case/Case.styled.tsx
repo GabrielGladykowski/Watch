@@ -8,6 +8,15 @@ export const CaseWrapperStyled = styled.div`
     justify-content: center;
     width: 200px;
     height: 230px;
+    @media (min-width: 375px) {
+        transform: scale(1.2);
+    }
+    @media (min-width: 768px) {
+        transform: scale(1.5);
+    }
+    @media (min-width: 1024px) {
+        transform: scale(1.8);
+    }
 `;
 
 export const CaseStyledTopLeft = styled.div`
