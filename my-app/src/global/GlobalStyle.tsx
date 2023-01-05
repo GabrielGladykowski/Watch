@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
+import { COLORS } from "../const/COLORS";
 
 const GLOBALSTYLE = createGlobalStyle`
     * {
@@ -18,6 +19,11 @@ const GLOBALSTYLE = createGlobalStyle`
 
     body {
         font-family: monospace;
+        background: linear-gradient(
+        190deg,
+        ${COLORS.BACKGROUND_LIGHT_COLOR} 0%,
+        ${COLORS.BACKGROUND_DARK_COLOR} 100%
+    );
     }
 `;
 
