@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { COLORS } from "../../const/COLORS";
 
 export const WatchStyled = styled.section`
   display: flex;
